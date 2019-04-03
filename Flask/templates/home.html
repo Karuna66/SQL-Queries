@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> MY APIS</title>
+    </head>
+    <body>
+        <h1>Hawaii weather station Data for Developers </h1>
+        <hr>
+        <h4>API Requests can be obtained for the following</h4>
+        <hr>
+        <h5> Data set is from 2010-01-01 till 2017-08-23. All output will be in JSON Format.</h5>
+        <ul>
+            <li>To get the precipitation of the stations with the dates as key.</li>
+                <p>
+                     Use <em>/api/v1.0/precipitation</em> after the host.
+                     <em>example: //api/v1.0/precipitation</em>
+                </p>
+            <li> To get the list of the stations</li>
+                <p>
+                    Use <em>/api/v1.0/stations</em> after the host.
+                    <em>example: //api/v1.0/stations</em>
+                </p>
+            <li> To get the temperature of the stations with dates as key</li>
+            <p>
+                    Use <em>/api/v1.0/tobs</em> after the host.
+                    <em>example: //api/v1.0/tobs</em>
+                </p>
+            <li> To get minimum Average and Maximum Temp of the stations</li>
+                <p>
+                    Use <em>/api/v1.0/{start_date}</em> after the host.Here parameter to be entered is 
+                    start date(YYYY-MM-DD) format. Its will provide all data from start 
+                    date.
+                    <em>example: //api/v1.0/2017-01-03</em>
+                </p>
+            <li> To get minimum Average and Maximum Temp of the stations</li>
+                <p>
+                    Use <em>/api/v1.0/{start_date}/{end_date}</em> after the host.Here parameters to be entered 
+                    is <em>"start_date / end_date"</em>(YYYY-MM-DD) format. Its will 
+                    provide all data from start till end date.
+                    <em>example: //api/v1.0/2016-01-03/2017-01-01</em>
+                </p>
+
+
+        </ul>
+
+    </body>
+</html>
